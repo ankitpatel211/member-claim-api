@@ -11,7 +11,7 @@ using System.Text.Json.Serialization;
 namespace ClaimsArray.Controllers
 {
     [Produces("application/json")]
-    [Route("api/MemberClaims")]
+    [Route("api/member/claims")]
     [ApiController]
     public class MemberClaimController : ControllerBase
     {
